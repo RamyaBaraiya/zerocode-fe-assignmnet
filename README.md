@@ -18,9 +18,8 @@
 - **Frontend**: React 18, TypeScript, Vite
 - **Styling**: Tailwind CSS, shadcn/ui components
 - **State Management**: React Hooks, Local Storage
-- **Authentication**: JWT simulation (production-ready structure)
+- **Authentication**: JWT Token
 - **Icons**: Lucide React
-- **Voice Features**: Web Speech API
 - **Build Tool**: Vite
 - **Code Quality**: ESLint, TypeScript strict mode
 
