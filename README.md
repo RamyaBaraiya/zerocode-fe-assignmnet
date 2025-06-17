@@ -159,49 +159,6 @@ npm run build
 # Deploy to Vercel
 ```
 
-### Netlify
-```bash
-npm run build
-# Deploy dist/ folder to Netlify
-```
-
-### Docker
-```dockerfile
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci --only=production
-COPY . .
-RUN npm run build
-EXPOSE 3000
-CMD ["npm", "run", "preview"]
-```
-
-## 🧪 Testing
-
-### Manual Testing Checklist
-- ✅ User registration and login flows
-- ✅ Chat message sending and receiving
-- ✅ Voice input functionality (Chrome/Edge)
-- ✅ Dark/light theme switching
-- ✅ Chat export (JSON/TXT formats)
-- ✅ Responsive design (mobile/tablet/desktop)
-- ✅ Message reactions and interactions
-
-### Browser Support
-- ✅ Chrome 60+ (full features)
-- ✅ Firefox 55+ (no voice input)
-- ✅ Safari 11+ (limited voice features)
-- ✅ Edge 79+ (full features)
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request
-
 
 
 **Demo Credentials**: Use any email and password to sign in and explore the chatbot features!
