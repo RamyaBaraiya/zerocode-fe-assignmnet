@@ -9,9 +9,7 @@
 
 ### Bonus Features
 - **🎤 Voice Input**: Speech-to-text functionality using Web Speech API
-- **🔊 Voice Output**: Text-to-speech for AI responses
 - **📱 Export Chat**: Download chat history as JSON or TXT files
-- **💝 Message Reactions**: Like and love message interactions
 - **✨ Smooth Animations**: Fade-in effects and micro-interactions
 - **🎨 Glass-morphism UI**: Modern frosted glass design elements
 
