@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
 import { Loader } from 'lucide-react';
-
+const JWT_SECRET = 'secretkey' 
 interface LoginFormProps {
   onLogin: (user: any) => void;
 }
@@ -21,7 +21,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
     setIsLoading(true);
 
     try {
-      // Simulate API call - replace with real authentication
+      const token = jwt.sign({email:email,password:password},JWT_SECRET)
       await new Promise(resolve => setTimeout(resolve, 1000));
       
       if (email && password) {
